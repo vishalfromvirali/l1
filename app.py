@@ -5,7 +5,7 @@ import time
 import requests
 from bs4 import BeautifulSoup
 from flask import Flask, render_template, request
-from serpapi.google_search import GoogleSearch
+from serpapi import GoogleSearch
 from sumy.nlp.tokenizers import Tokenizer
 from sumy.parsers.plaintext import PlaintextParser
 from sumy.summarizers.lsa import LsaSummarizer
