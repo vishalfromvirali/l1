@@ -101,7 +101,6 @@ def home():
         try:
             search = GoogleSearchResults(params)
             results = search.get_dict()
-
             organic_results = results.get("organic_results", [])
             urls = [result["link"] for result in organic_results]
 
